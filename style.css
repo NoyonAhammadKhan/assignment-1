@@ -1,0 +1,168 @@
+.pro-card {
+  background-color: #f2f4f2;
+  max-width: 350px;
+}
+
+.bi-suit-heart,
+.bi-suit-heart-fill {
+  font-size: 32px;
+}
+.product-section,
+.category-section {
+  width: 75%;
+}
+.ipad-font {
+  color: #909090;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.slider-banner {
+  background-image: url("./assets/banner-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-heading {
+  font-family: Montserrat;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px; /* 75% */
+  letter-spacing: -0.96px;
+}
+.carousel-para{
+  font-size: 18px;
+}
+
+#ipad-img{
+  width:450px;
+  margin-bottom:-15px;
+}
+
+.nav-bg {
+  background-color: #1a187a;
+  padding: 15px;
+  font-color: #ffffff;
+}
+.nav-link {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.macbook-img{
+  width:700px;
+  height:607px;
+  margin-right:-100px;
+  margin-left:auto;
+}
+
+
+footer {
+  color: #ffffff;
+ 
+}
+.social-icons ul{
+    display:flex:
+    gap:10px;
+}
+.social-icon{
+    font-size:30px;
+}
+.footer-divs {
+  display: flex;
+  gap: 25px;
+  width:75%;
+  margin:auto;
+}
+ul li {
+  list-style-type: none;
+}
+.services{
+    text-align:left;
+}
+
+.carousel-img{
+  margin-bottom: -350px;
+}
+.sale-img-2{
+    display:flex;
+    justify-content:end;
+    margin-right: -70px;
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 600px){
+	.carousel-header-para{
+    color: #1E046A;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 320% */
+  }
+  .carousel-img{
+    margin-bottom: -350px;
+  }
+  .carousel-text{
+    text-align:center;
+  }
+  .carousel-text > h1{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px; /* 240% */
+    letter-spacing: -0.3px;
+  }
+  .carousel-para{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 240% */
+  }
+  #headphone-image{
+    width:230px;
+    margin-left:-141px;
+    margin-bottom:-30px;
+  }
+  
+  #ipad-img{
+    width:270px;
+    margin-bottom:-15px;
+  }
+  .ipad-font{
+    font-size:14px;
+  }
+  .macbook-img{
+    width:300px;
+    height:250px;    
+  }
+  .sale-img-1{
+    margin-top:-700px;
+    margin-bottom:auto;
+    padding:20px;
+    padding-top:0px;
+  }
+
+    .sale-img-2{
+      display:block;
+      justify-content:center;
+      
+    
+  }
+  
+}
